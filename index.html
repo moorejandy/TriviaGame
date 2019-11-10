@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Welcome to Stephen King Trivia</h1>
+                <h3 class="directions">Answer the Questions as fast as you can.</h3>
+                <p class="lead">Time Remaining: <span id="counter">15</span>
+                </p>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <button id="start">
+                <h2>Start</h2>
+            </button>
+        </div>
+
+        <div class="trivia">
+
+            <p id="questions">
+                <form id="form">
+                    <label class="radio-inline">
+                    </label>
+                </form>
+        </div>
+        <br>
+        <div class="sub-button"></div>
+        <button class="btn btn-primary" id="check" type="submit">Check Answers Now</button>
+    </div>
+    <br>
+
+    <div id="quiz-results" class="block">
+
+        <p>Correct Answers: <span id="right">0</span></p>
+        <p>Incorrect Answers: <span id="wrong">0</span></p>
+        <p>Unanswered: <span id="unanswered">0</span></p>
+
+    </div>
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

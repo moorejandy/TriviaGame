@@ -1,0 +1,29 @@
+.jumbotron {
+    background-image: url(../images/hand-984170_1920.jpg);
+    /* color: rgb(97, 12, 12); */
+}
+
+.lead {
+    font-size: 30px;
+    font-weight: bold;
+}
+body {
+    text-align: center;
+    background-image: url(../images/hand-984170_1920.jpg);
+}
+
+
+#check {
+    margin-left: 40%;
+}
+
+#form {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 20px;
+}
